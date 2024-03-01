@@ -3,4 +3,16 @@ function add(n, m){
     return n + m;
 }
 
-module.exports = { add }
+function subtract(n, m){
+    return n - m;
+}
+
+function divide(n, m){
+    return n / m;
+}
+
+function multiply(n, m){
+    return n * m;
+}
+
+module.exports = { add, subtract, divide, multiply }
